@@ -72,3 +72,5 @@ kubectl get secret -n monitoring zabbix-agent -o jsonpath='{.data.token}' | base
 ```
 
 - ![修改参数](https://github.com/ttkk1024/ttkk1024.github.io-src/blob/main/source/_posts/202511/image-1.png?raw=true)
+
+我必须很悲伤的告诉你,虽然每一步都正常,但是由于我的监控指标显示7283个,可能触发了zabbix的bug,所有指标都正常的情况下,zabbix没有图标显示
