@@ -64,11 +64,11 @@ kubectl get secret -n monitoring zabbix-agent -o jsonpath='{.data.token}' | base
 
 - 选择模板`Kubernetes nodes by HTTP`
 
-- ![创建主机](https://github.com/ttkk1024/ttkk1024.github.io-src/blob/main/source/_posts/202511/image.png)
+- ![创建主机](https://github.com/ttkk1024/ttkk1024.github.io-src/blob/main/source/_posts/202511/image.png?raw=true)
 - 在 宏 - 继承及主机 宏 中，修改两个宏：
 ``` yaml
 {$KUBE.API.URL}
 {$KUBE.API.TOKEN}
 ```
 
-- ![修改参数](https://github.com/ttkk1024/ttkk1024.github.io-src/blob/main/source/_posts/202511/image-1.png)
+- ![修改参数](https://github.com/ttkk1024/ttkk1024.github.io-src/blob/main/source/_posts/202511/image-1.png?raw=true)
